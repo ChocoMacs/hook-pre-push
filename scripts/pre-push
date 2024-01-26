@@ -1,0 +1,3 @@
+#!/bin/sh
+echo "Hook de pre-push"
+echo "$(git log --oneline)"
